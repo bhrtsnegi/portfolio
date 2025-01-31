@@ -39,10 +39,10 @@ const About = ({ isDarkMode }) => {
             transition={{duration: 0.6, delay: 0.8}}
             >
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Similique omnis dolor quod animi temporibus vitae quidem error? 
-                    Est deserunt beatae quaerat necessitatibus magni alias, 
-                    quas assumenda distinctio eius, officiis aspernatur!
+                I’m a passionate developer specializing in web development, app development, 
+                and competitive programming. With a strong foundation in React.js, Node.js, 
+                and Data Structures & Algorithms (DSA), 
+                I love building high-performance, scalable, and user-friendly applications.
                 </p>
                 <motion.ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'
                 initial={{opacity: 0}}

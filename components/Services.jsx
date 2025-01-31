@@ -25,9 +25,8 @@ const Services = ({ isDarkMode }) => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }} 
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rem maxime 
-            dolor excepturi reiciendis. Harum, assumenda blanditiis 
-            fuga corrupti laboriosam esse maxime culpa repellat rem ducimus dolorum deserunt illo sed!
+            I provide a range of services in web development, app development, and competitive programming, 
+            ensuring high-quality solutions tailored to your needs.
         </motion.p>
         <motion.div
         initial = {{ opacity: 0 }}

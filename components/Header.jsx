@@ -33,9 +33,11 @@ const Header = (isDarkMode) => {
         whileInView={{opacity: 1}} 
         transition={{duration:0.6, delay:0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eligendi id repudiandae, 
-            non ipsum voluptate ex ad provident perspiciatis sit aut expedita, 
-            officia deleniti impedit enim et. Reiciendis, dignissimos aspernatur!
+            Building scalable, high-performance web and mobile applications with 
+            React.js, Next.js, Node.js, and React Native. Passionate about problem-solving, 
+            AI integration, and automation to enhance user experiences.
+
+            <span>Let’s turn ideas into reality with clean code, innovation, and efficiency! 💡</span>
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a
@@ -49,7 +51,7 @@ const Header = (isDarkMode) => {
             initial={{y: 30, opacity: 0}}
             whileInView={{y: 0, opacity: 1}} 
             transition={{duration:0.6, delay:1.2}}
-            href="./sample-resume.pdf" download className='px-10 py-3 rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
+            href="./bharatnegiresume.pdf" download className='px-10 py-3 rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
                 My Resume <Image src={assets.download_icon} alt='' className='w-4' /> 
             </motion.a>
         </div>
